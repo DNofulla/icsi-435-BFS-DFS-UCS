@@ -1,3 +1,5 @@
+# Daniel Nofulla ICSI 435 Homework 1
+
 - G1 is an undirected, unweighted graph.
 - G2 is a directed, unweighted graph.
 - G3 is an undirected, weighted graph.
