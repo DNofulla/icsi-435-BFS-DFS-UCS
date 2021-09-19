@@ -177,5 +177,91 @@ print("ADJACENCY MATRIX GRAPH 4")
 print(g4_matrix)
 
 
-def DFS_Vertex_G1():
+# DFS G1
+def DFS_Vertex_Stack_G1():
+    return
+
+
+def DFS_Vertex_Recursion_G1():
+    return
+
+
+def DFS_Matrix_Stack_G1():
+    return
+
+
+def DFS_Matrix_Recursion_G1():
+    return
+
+# DFS G2
+
+
+def DFS_Vertex_Stack_G2():
+    return
+
+
+def DFS_Vertex_Recursion_G2():
+    return
+
+
+def DFS_Matrix_Stack_G2():
+    return
+
+
+def DFS_Matrix_Recursion_G2():
+    return
+
+# BFS G1
+
+
+def BFS_Vertex_Stack_G1():
+    return
+
+
+def BFS_Vertex_Recursion_G1():
+    return
+
+
+def BFS_Matrix_Stack_G1():
+    return
+
+
+def BFS_Matrix_Recursion_G1():
+    return
+
+# BFS G2
+
+
+def BFS_Vertex_Stack_G2():
+    return
+
+
+def BFS_Vertex_Recursion_G2():
+    return
+
+
+def BFS_Matrix_Stack_G2():
+    return
+
+
+def BFS_Matrix_Recursion_G2():
+    return
+
+
+# UCS G3
+def UCS_Vertex_PQ_G3():
+    return
+
+
+def UCS_Matrix_PQ_G3():
+    return
+
+# UCS G4
+
+
+def UCS_Vertex_PQ_G4():
+    return
+
+
+def UCS_Matrix_PQ_G4():
     return
