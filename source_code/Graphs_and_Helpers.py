@@ -139,3 +139,7 @@ def getVertex(index: int):
     if index < len(map_of_vertex):
         return map_of_vertex[index]
     return -1
+
+
+def getAdjacentLetterToExplore(some_reverse_index):
+    return [letter_value for key_value, letter_value in map_of_vertex.items() if key_value == some_reverse_index][0]

@@ -1,16 +1,41 @@
 # Daniel Nofulla ICSI 435 Homework 1
 
-- G1 is an undirected, unweighted graph.
-- G2 is a directed, unweighted graph.
-- G3 is an undirected, weighted graph.
-- G4 is a directed, weighted graph.
+- Graphs_and_Helpers.py holds all the Graphs (Hard Coded because nothing says it is not allowed), 3 helper functions and the map of vertices
 
-We need 8 Graphs, G1 G2 G3 and G4 with both the Vertex-List and Adjacency-Matrix implementation.
+- DFS_G1.py holds all the DFS Functions for Graph 1 (4 Functions - Matrix and Vertex by Stack and Recursion)
+- DFS_G2.py holds all the DFS Functions for Graph 2 (4 Functions - Matrix and Vertex by Stack and Recursion)
 
-We gotta have BFS, DFS working with both recursion and stack for the G1 and G2 Graphs with either the Vertex-List or Adjacency Matrix implementations.
+- BFS_G1.py holds all the BFS Functions for Graph 1 (4 Functions - Matrix and Vertex by Stack and Recursion)
+- BFS_G2.py holds all the BFS Functions for Graph 2 (4 Functions - Matrix and Vertex by Stack and Recursion)
 
-We gotta have UCS work with a Priority Queue for the G3 and G4 Graphs with either the Vertex-List or Adjacency Matrix implementations.
+- UCS_G3.py holds all the DFS Functions for Graph 2 (2 Functions - Matrix and Vertex by Priority Queue)
+- UCS_G4.py holds all the DFS Functions for Graph 2 (2 Functions - Matrix and Vertex by Priority Queue)
 
-# Libraries Used
+- run.py runs the program
 
-- Numpy (For zero-ing adjacency matrices to initialize them)
+# Wrong Functions but still implemented (to an extent)
+
+- On BFS_G1.py, Recursive Implementations have a few issues with both the path and the expanded steps
+- On BFS_G2.py, Recursive Implmenetaions have a few issues with the expanded steps on the vertex implementation and both the path and expanded steps on the matrix implementation
+
+# Functions with no attempt at implementation
+
+- None
+
+# Libraries and Python Default Data Structure Implementations Used
+
+- numpy==1.21.2
+- PriorityQueue from queue
+- Stack
+- Dictionaries
+- Arrays
+
+# Documentation
+
+Documentation and Program Output is in the Documentation Folder
+
+# How to install dependencies
+
+```
+pip install -r requirements.txt
+```

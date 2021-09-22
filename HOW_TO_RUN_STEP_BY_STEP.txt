@@ -1,0 +1,12 @@
+Open up cmd inside the root directory (wher this file is located)
+
+Run the following commands
+
+pip install virtualenv                (You can skip this if you already have virtualenv installed globally on your computer)
+cd source_code                        (Go to the source_code directory)
+virtualenv venv_daniel                (Create the virtual environment)
+cd venv_daniel/Scripts                (Go to the scripts of the virtual environment)
+activate.bat                          (Run the environment's activate.bat file)
+cd ../..                              (Go back to the source_code directory)
+pip install -r ../requirements.txt    (Install all the pip requirements)
+python run.py                         (Run the program)
